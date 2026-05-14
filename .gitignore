@@ -1,6 +1,11 @@
+*.log
+*.log.*
+ha-config/*.log
+ha-config/*.log.*
 *.db
 *.db-shm
 *.db-wal
 ha-config/.storage/
 ha-config/tts/
 ha-config/secrets.yaml
+ha-config/.storage
