@@ -1,6 +1,6 @@
 Raspberry Pi 5 - Homelab
 
-Este repositório contém a documentação e os arquivos de configuração do meu laboratório pessoal. O foco deste projeto é a migração de uma mentalidade de Suporte Técnico para a cultura DevOps, aplicando automação, segurança e monitoramento.
+Este repositório contém a documentação e os arquivos de configuração do meu laboratório pessoal. O foco deste projeto é a migração para a cultura DevOps, aplicando automação, segurança e monitoramento.
 
 🛠️  Hardware Processador: Broadcom BCM2712 (Raspberry Pi 5)
 
