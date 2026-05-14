@@ -1,11 +1,13 @@
-version: '3'
 services:
   homeassistant:
     container_name: homeassistant
     image: "ghcr.io/home-assistant/home-assistant:stable"
     volumes:
-      - /home/pi/homeassistant/config:/config
+      # Caminho relativo para que o projeto funcione em qualquer lugar
+      - ./ha-config:/config
+      # Mantém o fuso horário sincronizado com o Raspberry Pi
       - /etc/localtime:/etc/localtime:ro
     restart: unless-stopped
     privileged: true
+    # Essencial para que o HA descubra dispositivos na sua rede (Zigbee, WiFi, etc)
     network_mode: host
