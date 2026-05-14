@@ -1,0 +1,6 @@
+*.db
+*.db-shm
+*.db-wal
+ha-config/.storage/
+ha-config/tts/
+ha-config/secrets.yaml

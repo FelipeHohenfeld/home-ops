@@ -1,0 +1,103 @@
+2026-05-14 18:12:10.172 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2026-05-14 18:12:10.173 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration tapo_control which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2026-05-14 18:12:10.174 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration localtuya which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2026-05-14 18:12:10.174 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration tuya_local which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2026-05-14 18:12:10.491 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2026-05-14 18:12:10.512 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=18 from 2026-05-13 17:44:32.406584)
+2026-05-14 18:12:11.325 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:12:15.453 WARNING (MainThread) [homeassistant.components.lg_thinq] No devices registered with the correct profile
+2026-05-14 18:12:22.966 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:12:22.969 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:12:27.838 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:12:32.992 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:12:48.030 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:13:13.150 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:14:08.143 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:14:23.994 ERROR (MainThread) [aiodhcpwatcher] Error while processing dhcp packet: [Errno 100] Network is down
+2026-05-14 18:14:33.267 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:14:54.042 ERROR (SyncWorker_3) [aiodhcpwatcher] Cannot watch for dhcp packets: [Errno 100] Network is down
+2026-05-14 18:15:28.505 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:15:53.704 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:16:48.647 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:17:14.195 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:18:09.129 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:18:34.401 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:19:29.266 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:19:54.888 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:20:49.487 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:21:14.984 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:22:09.740 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:22:10.599 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=26 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=26, family=10, type=2, proto=0, laddr=('::', 36311, 0, 0)>
+2026-05-14 18:22:10.599 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=28 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=28, family=2, type=2, proto=0, laddr=('0.0.0.0', 41090)>
+2026-05-14 18:22:35.395 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:23:30.211 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:23:55.819 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:24:50.685 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:25:16.240 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:26:10.865 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:26:36.668 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:27:31.287 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:27:57.164 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:28:51.653 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:29:17.343 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:30:12.011 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:30:37.835 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:31:32.372 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:31:58.105 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:32:10.600 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=26 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=26, family=10, type=2, proto=0, laddr=('::', 36311, 0, 0)>
+2026-05-14 18:32:10.600 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=28 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=28, family=2, type=2, proto=0, laddr=('0.0.0.0', 41090)>
+2026-05-14 18:32:52.440 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:33:18.168 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:34:12.825 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:34:38.581 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:35:33.038 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:35:58.861 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:36:53.386 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:37:19.279 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:38:13.637 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:38:39.478 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:39:33.812 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:39:59.839 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:40:54.304 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:41:20.147 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:42:10.601 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=26 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=26, family=10, type=2, proto=0, laddr=('::', 36311, 0, 0)>
+2026-05-14 18:42:10.601 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=28 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=28, family=2, type=2, proto=0, laddr=('0.0.0.0', 41090)>
+2026-05-14 18:42:14.636 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:42:40.450 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:43:34.878 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:44:00.571 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:44:55.069 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:45:20.826 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:46:15.427 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:46:41.112 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:47:35.597 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:48:01.434 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:48:55.981 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:49:21.524 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:50:16.238 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:50:41.861 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:51:36.585 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:52:02.194 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:52:10.601 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=26 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=26, family=10, type=2, proto=0, laddr=('::', 36311, 0, 0)>
+2026-05-14 18:52:10.602 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 101] Network unreachable, transport: <_SelectorDatagramTransport fd=28 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=28, family=2, type=2, proto=0, laddr=('0.0.0.0', 41090)>
+2026-05-14 18:52:56.673 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:53:22.420 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:54:17.027 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:54:42.697 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:55:37.298 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:56:02.824 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:56:57.724 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:57:23.243 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:58:18.017 ERROR (MainThread) [habluetooth.scanner] hci0 (88:A2:9E:A8:A2:CB): Failed to force stop scanner: 'NoneType' object has no attribute 'send'
+2026-05-14 18:58:35.764 WARNING (MainThread) [zeroconf] Error with socket 17 (('192.168.1.46', 5353))): [Errno 101] Network unreachable
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/asyncio/selector_events.py", line 1280, in sendto
+    self._sock.sendto(data, addr)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+OSError: [Errno 101] Network unreachable
+2026-05-14 18:58:35.766 WARNING (MainThread) [zeroconf] Error with socket 18 (('fe80::eb9d:4d0d:7072:9ef7', 5353, 0, 3))): [Errno 101] Network unreachable
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.14/asyncio/selector_events.py", line 1280, in sendto
+    self._sock.sendto(data, addr)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+OSError: [Errno 101] Network unreachable
