@@ -1,44 +1,62 @@
-Raspberry Pi 5 - Homelab
+# 🚀 Hexcore Lab: Raspberry Pi 5 Homelab
 
-Este repositório contém a documentação e os arquivos de configuração do meu laboratório pessoal. O foco deste projeto é a migração para a cultura DevOps, aplicando automação, segurança e monitoramento.
+Este repositório centraliza a infraestrutura, automações e registros do meu laboratório pessoal. O projeto foca na transição para a **cultura DevOps**, aplicando conceitos de **IaC** (Infrastructure as Code), segurança ofensiva/defensiva e monitoramento contínuo.
 
-🛠️  Hardware Processador: Broadcom BCM2712 (Raspberry Pi 5)
+---
 
-Memória: 16GB LPDDR4X
+## 🛠️ Hardware & Host
+A base do projeto é um Raspberry Pi 5, configurado para alta performance e estabilidade.
 
-Armazenamento: SSD NVMe (via interface PCIe)
+* **Processador:** Broadcom BCM2712 (Cortex-A76)
+* **Memória:** 16GB LPDDR4X
+* **Armazenamento:** SSD NVMe (via PCIe)
+* **Case:** Pironman 5 (Status OLED)
+* **SO:** Raspberry Pi OS 64-bit (Debian Bookworm)
 
-Estou utilizando a case Pironman 5 (Cooler + Led de status)
+---
+## 🏗️ Arquitetura de Software & DevOps
+A infraestrutura é modular e isolada, permitindo deploys rápidos e versionamento completo.
 
-🏗️  Arquitetura de Software
+| Camada | Tecnologia | Função |
+| :--- | :--- | :--- |
+| **Container Engine** | Docker | Isolamento de processos |
+| **Orquestração** | Docker Compose | Declaração de Infraestrutura (IaC) |
+| **Gestão Visual** | Portainer | Monitoramento de containers e recursos |
+| **Rede/VPN** | Tailscale | VPN Mesh (Zero Trust) sem portas expostas |
+| **Versionamento** | Git/GitHub | Documentação e histórico de alterações |
 
-A infraestrutura é baseada em containers, garantindo isolamento e portabilidade dos serviços.
+### 🔒 Segurança (Hardening)
+- **SSH:** Autenticação via Chaves Ed25519 (Passwordless) e login de Root desativado.
+- **Secrets Management:** Uso de `secrets.yaml` e `.gitignore` para proteção de tokens e senhas.
+- **Network:** Acesso externo restrito à rede privada via Tailscale.
 
-SO: Raspberry Pi OS 64-bit (Debian Bookworm)
+---
 
-Orquestração: Docker & Docker Compose
+## 📦 Serviços em Rodando (Stack)
+- **Home Assistant:** Central de automação inteligente.
+- **Portainer:** Dashboard de gerenciamento Docker.
 
-Acesso Seguro: SSH Hardening (Ed25519 Keys + Passwordless)
+---
 
-Rede: VPN Mesh (Tailscale) para acesso remoto seguro sem exposição de portas.
+## 🛡️ Registro de Incidentes (Post-Mortem)
+Documentação técnica de falhas para base de conhecimento e Troubleshooting.
 
+### 🔴 Incidente 001: File System Read-only Lock
+**Data:** 14/05/2026 | **Severidade:** Alta
 
-🛡️ Registro de Incidentes
+**Sintoma:** Bloqueio de escrita na partição `/boot/firmware` impedindo o upgrade do Kernel (`initramfs-tools`).
 
-Nesta seção, documento os desafios técnicos encontrados durante a manutenção do laboratório, servindo como base de conhecimento e portfólio de Troubleshooting.
+**Causa Raiz:** Inconsistência lógica durante escrita de firmware; mecanismo de proteção do Kernel ativado para evitar corrupção de dados.
 
-🔴 Incidente 001: Bloqueio de Escrita no Sistema de Arquivos (Read-only)
-**Data:** 14 de Maio de 2026  
-**Severidade:** Alta (Impediu atualizações de segurança e causou falha no login do Home Assistant)
+**Resolução:**
+1. Remontagem forçada da partição: `sudo mount -o remount,rw /boot/firmware`
+2. Reparo de dependências: `sudo dpkg --configure -a`
 
-📝 Descrição do Problema
-Durante a atualização do Kernel e Firmware do Raspberry Pi 5, o sistema entrou em modo **Read-only** (Somente Leitura) na partição `/boot/firmware`. Isso resultou em falhas críticas nos pacotes `initramfs-tools` e `raspi-firmware`, impedindo a inicialização correta de novos módulos do sistema.
+**Lição Aprendida:** Importância de monitorar o estado de montagem do SSD e validar a integridade após atualizações críticas de firmware.
 
-🔍 Causa Raiz
-Inconsistência lógica no sistema de arquivos durante o processo de escrita do Kernel. O Linux bloqueou a escrita para evitar a corrupção total dos dados de boot, um mecanismo de proteção comum quando há falhas de montagem ou setores instáveis no armazenamento.
+---
 
-🚀 Resolução e Recuperação
-Para solucionar o incidente, segui os seguintes passos de infraestrutura:
-1. **Remontagem Manual:** Forcei a partição a aceitar escrita novamente:
-   ```bash
-   sudo mount -o remount,rw /boot/firmware
+## 📈 Próximos Passos
+- [ ] Implementar monitoramento de temperatura do Pi via Home Assistant.
+- [ ] Configurar Backup automatizado dos volumes Docker para o Cloud.
+- [ ] Implementar Nginx Proxy Manager para gestão de subdomínios internos.
