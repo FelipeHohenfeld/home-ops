@@ -25,6 +25,14 @@ A infraestrutura é modular e isolada, permitindo deploys rápidos e versionamen
 | **Rede/VPN** | Tailscale | VPN Mesh (Zero Trust) sem portas expostas |
 | **Versionamento** | Git/GitHub | Documentação e histórico de alterações |
 
+## 🌐 Rede & Conectividade
+
+A conectividade do **Hexcore** foi projetada sob o princípio de **Zero Trust**, eliminando a necessidade de abertura de portas no roteador (Port Forwarding) e protegendo a rede doméstica.
+
+* **VPN Mesh (Tailscale):** Utilizada para criar uma rede privada virtual segura entre o Raspberry Pi, dispositivos móveis e estações de trabalho.
+* **MagicDNS:** Implementado para resolução de nomes amigáveis, permitindo acesso aos serviços via hostname (ex: `http://hexcore:9000`) em vez de IPs dinâmicos.
+* **Isolamento de Interface:** O tráfego administrativo é restrito à interface virtual `tailscale0`, garantindo que o acesso ao controle do servidor seja invisível para dispositivos na rede Wi-Fi local sem autorização.
+
 ### 🔒 Segurança (Hardening)
 - **SSH:** Autenticação via Chaves Ed25519 (Passwordless) e login de Root desativado.
 - **Secrets Management:** Uso de `secrets.yaml` e `.gitignore` para proteção de tokens e senhas.
