@@ -11,3 +11,16 @@ services:
     privileged: true
     # Essencial para que o HA descubra dispositivos na sua rede (Zigbee, WiFi, etc)
     network_mode: host
+
+portainer:
+    container_name: portainer
+    image: portainer/portainer-ce:latest
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./portainer-data:/data
+    ports:
+      - "9443:9443"
